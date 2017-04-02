@@ -1,0 +1,13 @@
+CONFIG: staging
+GIN_MODE: release
+
+SERVER: 0.0.0.0:5000
+
+DB_TYPE: postgres
+DB_HOST: localhost
+DB_USER: db_user
+DB_PASSWORD:
+DB_NAME: db_name
+DB_SSL_MODE: disable
+
+LOG_FILE: /tmp/sample.log

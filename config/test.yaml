@@ -1,0 +1,9 @@
+CONFIG: test
+GIN_MODE: test
+
+SERVER: 0.0.0.0:5001
+
+DB_TYPE: sqlite3
+DB_PATH: /tmp/test.db
+
+LOG_FILE: /tmp/sample.log
